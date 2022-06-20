@@ -1,7 +1,7 @@
 int func(number) {
-  return number ~/ 10 + number;
+  return number % 10 + number ~/ 10;
 }
 
 void main() {
-  print(func(66));
+  print(func(74));
 }
