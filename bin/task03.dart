@@ -1,7 +1,7 @@
-int func(a, b) {
-  return a + b;
+int func(number) {
+  return number ~/ 10 + number;
 }
 
 void main() {
-  print(func(6, 6));
+  print(func(66));
 }
