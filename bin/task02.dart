@@ -6,4 +6,10 @@
 //     number
 // Returns:
 //     return amswer;
-void main() {}
+
+int func(number) {
+  return number ~/ 10;
+
+void main() {
+  print(func(29));
+}
