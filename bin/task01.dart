@@ -8,4 +8,11 @@
   Returns:
       return answer
   */
-void main() {}
+int func(number) {
+  int answer = number % 10;
+  return answer;
+}
+
+void main() {
+  print(func(29));
+}
