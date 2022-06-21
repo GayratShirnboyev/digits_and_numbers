@@ -8,7 +8,7 @@ Args:
 Returns:
     return answer
 */
-int func(number) {
+int func(int number) {
   return (number ~/ 10) % (number % 10);
 }
 
