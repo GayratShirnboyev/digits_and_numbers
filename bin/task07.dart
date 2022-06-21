@@ -8,4 +8,10 @@ Args:
 Returns:
     return answer
 */
-void main() {}
+int func(number) {
+  return number % 2;
+}
+
+void main() {
+  print(func(25));
+}
